@@ -6,4 +6,4 @@ Resources:
   S3BucketDemo:
     Type: 'AWS::S3::Bucket'
     Properties:
-      BucketName: gopibucket
+      BucketName: gopibucketdemo
