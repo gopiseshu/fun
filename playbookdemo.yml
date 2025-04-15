@@ -1,0 +1,12 @@
+-  
+  name: data base installation
+  hosts: localhost
+  tasks:
+   - name: mysql installation
+     yum:
+      name: postgresql
+      state: latest
+   - name: server start
+     service:
+       name: postgresql
+       state: started
